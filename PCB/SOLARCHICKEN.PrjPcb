@@ -93,51 +93,6 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
-[GeneratedDocument1]
-DocumentPath=ProjectOutputs\Design Rule Check - solarchicken.html
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for theswitch\solarchicken.DRL
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for theswitch\solarchicken.DRR
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for theswitch\solarchicken.EXTREP
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for theswitch\solarchicken.GBL
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for theswitch\solarchicken.GBO
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for theswitch\solarchicken.GBS
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for theswitch\solarchicken.GM1
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for theswitch\solarchicken.GTL
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for theswitch\solarchicken.GTO
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for theswitch\solarchicken.GTS
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for theswitch\solarchicken.LDP
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for theswitch\solarchicken.REP
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for theswitch\solarchicken.RUL
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for theswitch\solarchicken.TXT
-
 [Generic_SignalIntegrityPanelSetup]
 TerminationName0=No Termination
 TerminationEnabled0=True
@@ -247,6 +202,7 @@ TerminationVCC7=5
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
+TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Verilog
 OutputName1=Verilog File
@@ -308,6 +264,7 @@ OutputDefault9=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
+TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -331,6 +288,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
+TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -401,6 +359,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
+TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -419,6 +378,7 @@ OutputDefault2=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
+TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -483,6 +443,7 @@ OutputDefault9=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
+TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=SimpleBOM
 OutputName1=Simple BOM
@@ -528,6 +489,7 @@ OutputDefault5=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
+TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
